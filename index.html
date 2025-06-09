@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Keraton Cirebon</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- feather Icons -->
+ <script src="https://unpkg.com/feather-icons"></script>
+
+<!-- My Style -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Header -->
+<body>
+    <!-- Navbar Start -->
+     <nav class="navbar">
+        <a href="#" class="navbar-logo">Babad<span> Cerbon</span></a>
+        <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#history">History</a>
+            <a href="#map">Map</a>
+            <a href="#author">Author</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbar-extra">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+     </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+     <section class="hero" id="home">
+        <main class="content">
+            <h1>Sejarah <span>Cirebon</span></h1>
+            <p>Untuk Anda yang ingin tahu lebih banyak mengenai sejarah di Cirebon dimulai dari Keraton Kasepuhan sebagai keraton pertama, simak sejarah Cirebon berikut ini selengkapnya!</p>
+            <a href="#" class="cta">History</a>
+        </main>
+     </section>
+    <!-- Hero Section End -->
+
+<!-- History Section Start -->
+<section id="history" class="about">
+        <h2><span>History</span></h2>
+        <div class="row">
+            <div class="about-jpg">
+            <img src="https://cdn1-production-images-kly.akamaized.net/-uwPTKG6MOjKWb2ziO-1hiRTLmY=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1007116/original/028577700_1443707050-Batik-Mega-Mendung.jpg" alt="Batik Mega Mendung">
+        </div>
+        <div class="content">
+            <h3>Batik Mega Mendung</h3>
+            <p>Batik Mega Mendung adalah motif batik khas Cirebon, Jawa Barat, yang dikenal dengan pola awan bergelombang dan sarat akan makna filosofis. Dalam bahasa Jawa, "mega" berarti awan dan "mendung" berarti cuaca mendung, yang secara simbolis menggambarkan ketenangan, kesabaran, serta pengendalian diri. Motif ini mencerminkan sifat mendung yang membawa kesejukan sebelum hujan, sehingga diharapkan pemakainya dapat bersikap tenang dalam menghadapi berbagai tantangan hidup.</p>
+            <p>Sejarah motif Mega Mendung erat kaitannya dengan masuknya pengaruh budaya Tiongkok ke Keraton Cirebon pada abad ke-16, terutama melalui pernikahan Sunan Gunung Jati dengan Ratu Ong Tien dari Tiongkok. Dalam Taoisme, awan melambangkan dunia atas yang luas dan bebas, serta memiliki makna ketuhanan, yang kemudian memengaruhi dunia seni Islam, khususnya seni sufi. Para pembatik Keraton Cirebon mengadopsi motif awan tersebut dari benda-benda seni Tiongkok, seperti keramik dan kain, lalu mengolahnya dengan sentuhan khas lokal. Perbedaan terlihat pada bentuk garis awan, motif Tiongkok cenderung bulat dan melingkar, sementara motif Cirebon berbentuk lancip dan segitiga.</p>
+        </div>
+    </div>
+    <div class="row">
+            <div class="about-jpg">
+            <img src="https://www.cirebonkota.go.id/wp-content/uploads/2019/01/sejarah-kota-cirebon.jpg" alt="Kerajaan Cirebon">
+        </div>
+        <div class="content">
+            <h3>Kerajaan Cirebon</h3>
+            <p>Kerajaan Cirebon didirikan pada abad ke-15 sebagai pusat kekuasaan sekaligus penyebaran agama Islam di pesisir utara Jawa Barat. Awalnya, wilayah Cirebon merupakan bagian dari Kerajaan Sunda Galuh, namun kemudian menjadi mandiri ketika Pangeran Cakrabuana (putra Prabu Siliwangi dari Pajajaran) memilih menetap di daerah ini dan membangun pemerintahan sendiri. Pangeran Cakrabuana kemudian digantikan oleh keponakannya, Syarif Hidayatullah atau yang lebih dikenal sebagai Sunan Gunung Jati. Di bawah kepemimpinannya, Cirebon berkembang menjadi kesultanan Islam yang kuat, menjalin hubungan dagang dan diplomatik dengan kerajaan lain seperti Demak, Banten, bahkan bangsa asing seperti Portugis dan Tiongkok.</p>
+            <p>Seiring berjalannya waktu, setelah wafatnya Sunan Gunung Jati, terjadi perpecahan dalam keluarga kerajaan yang menyebabkan terbentuknya beberapa keraton, yaitu Keraton Kasepuhan, Kanoman, Kacirebonan, dan Keprabonan. Masing-masing keraton memiliki garis keturunan dan peran tersendiri, baik dalam hal pemerintahan, budaya, maupun spiritual. Meskipun kerajaan Cirebon tidak lagi memiliki kekuasaan politik seperti dahulu, warisan budayanya tetap hidup dan menjadi identitas kuat masyarakat Cirebon hingga kini.</p>
+        </div>
+    </div>
+</section>
+<!-- History Section End -->
+
+<!-- Keraton Section Start -->
+<section id="Keraton" class="keraton-section">
+  <h2><span>Keraton</span> Cirebon</h2>
+  <div class="keraton-container">
+    <div class="data-item">
+       <img src="https://wartaevent.com/wp-content/uploads/2020/08/Cirebon_Keraton-Kesepuhan-Cirebon_4772.jpg" alt="Keraton Kesepuhan">
+      <div class="description">
+        <h3>Keraton Kasepuhan</h3>
+        <p>Keraton Kasepuhan merupakan keraton tertua di Cirebon yang didirikan oleh Pangeran Cakrabuana pada abad ke-15 dan kemudian dikembangkan oleh putranya, Sunan Gunung Jati, salah satu Wali Songo penyebar Islam di Jawa. Keraton ini menjadi pusat pemerintahan Kesultanan Cirebon yang pertama. Bangunannya memadukan arsitektur Jawa, Sunda, Islam, Hindu, Tionghoa, hingga Eropa, mencerminkan keberagaman budaya yang ada saat itu. Keraton ini memiliki koleksi benda pusaka dan peninggalan bersejarah, termasuk kereta kencana Singa Barong yang hanya digunakan saat perayaan Grebeg Syawal.</p>
+      </div>
+    </div>
+    <div class="data-item">
+      <img src="https://visitcirebon.id/assets/wisata/aM1m8jc0jQTA36v32GDECrji4gEonqGa5lnd1dgz.webp" alt="Keraton Kanoman">
+      <div class="description">
+        <h3>Keraton Kanoman</h3>
+        <p>Keraton Kanoman didirikan pada tahun 1678 oleh Sultan Anom I atau Pangeran Kertawijaya, cucu dari Sunan Gunung Jati, sebagai bentuk perpecahan dari Keraton Kasepuhan. Keraton ini menjadi simbol kekuasaan baru yang lebih muda dan tetap menjalin hubungan erat dengan pusat spiritual Islam di Cirebon. Letaknya tidak jauh dari Kasepuhan, dan memiliki banyak benda pusaka serta artefak sejarah seperti kereta Paksi Naga Liman. Keraton ini juga aktif dalam tradisi dan budaya masyarakat Cirebon hingga sekarang.</p>
+      </div>
+    </div>
+    <div class="data-item">
+      <img src="https://fokusberitanasional.com/wp-content/uploads/2025/05/d2a27e7c-95b6-46d5-95dd-1bac60ab17be.jpg" alt="Keraton Kacirebonan">
+      <div class="description">
+        <h3>Keraton Kacirebonan</h3>
+        <p>Keraton Kacirebonan berdiri pada tahun 1807 sebagai hasil perpecahan lebih lanjut dari Keraton Kanoman akibat konflik internal keluarga kerajaan. Didirikan oleh Pangeran Raja Kanoman (Pangeran Cirebon), keraton ini lebih kecil dibanding dua keraton sebelumnya, namun tetap memainkan peran penting dalam pelestarian budaya dan adat istiadat Cirebon. Keraton ini menyimpan banyak dokumen sejarah, gamelan, dan pusaka yang digunakan dalam upacara adat dan perayaan keagamaan masyarakat sekitar.</p>
+      </div>
+    </div>
+    <div class="data-item">
+      <img src="https://asset-2.tstatic.net/cirebon/foto/bank/images/Keraton-Keprabonan-Cirebon.jpg" alt="Keraton Keprabonan">
+      <div class="description">
+        <h3>Keraton Keprabonan</h3>
+        <p>Berbeda dari tiga keraton lainnya, Keraton Keprabonan tidak memiliki gelar Sultan dan lebih dikenal sebagai kediaman keturunan Sunan Gunung Jati dari jalur keagamaan. Keprabonan dibentuk sebagai pusat penyebaran ajaran Islam dan pengembangan ilmu keagamaan, bukan sebagai pusat pemerintahan. Meskipun lebih kecil dan sederhana, keraton ini tetap memiliki nilai spiritual tinggi dan berperan dalam kehidupan religius masyarakat Cirebon. Banyak tokoh agama dan masyarakat yang datang ke Keprabonan untuk ziarah dan belajar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Keraton Section End -->
+
+<!-- Video Section Start -->
+<section id="Video" class="video-section">
+  <h2><span>Kesultanan</span> Cirebon</h2>
+  <div class="video-container">
+    <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/XdiSL6fzW-Q?si=fx_KGm5MWa2GNPL4" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+<!-- Video Section End -->
+
+<!-- Map Section Start -->
+<section id="map" class="Map">
+  <h2><span>Peta Sebaran Keraton </span>di Wilayah Cirebon</h2>
+  <p>Berikut adalah lokasi sebaran keraton di wilayah Kota Cirebon</p>
+  <div id="map-container"></div>
+</section>
+
+ <!-- Fullscreen plugin -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.fullscreen@1.6.0/Control.FullScreen.css" />
+  
+  <!-- LocateControl plugin -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.locatecontrol@0.76.0/dist/L.Control.Locate.min.css" />
+
+    <!-- Fullscreen plugin -->
+  <script src="https://unpkg.com/leaflet.fullscreen@1.6.0/Control.FullScreen.js"></script>
+
+  <!-- LocateControl plugin -->
+  <script src="https://unpkg.com/leaflet.locatecontrol@0.76.0/dist/L.Control.Locate.min.js"></script>
+
+  <!-- EasyButton plugin -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet-easybutton@2.4.0/src/easy-button.css" />
+<script src="https://unpkg.com/leaflet-easybutton@2.4.0/src/easy-button.js"></script>
+
+<!-- Font Awesome (untuk ikon "home") -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Map Section End -->
+
+<!-- Author Section Start -->
+<section id="author" class="Author">
+        <h2><span>Tentang </span>Pembuat</h2>
+<div class="author-content">
+  <div class="author-image">
+    <img src="ASSET/foto-author.jpg" alt="Foto Rizqia">
+  </div>
+  <div class="author-text">
+    <p>Halo! Saya Rizqia Rahmah Nurul Syifa, mahasiswa Sains Informasi Geografi yang antusias terhadap pelestarian budaya lokal melalui teknologi geospasial.</p>
+    <p>Website ini dibuat untuk memperkenalkan sejarah dan budaya Keraton Cirebon agar dapat dikenal dan diapresiasi lebih luas oleh masyarakat.</p>
+  </div>
+</div>
+<!-- Author Section End -->
+
+<!-- Footer Start -->
+<section id="contact" class="Contact"></section>
+<footer>
+  <div class="socials">
+    <!-- WhatsApp -->
+    <a href="https://wa.me/6283117659117" target="_blank" rel="noopener noreferrer">
+      <i data-feather="phone-call"></i>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:rizqiarns@gmail.com" target="_blank" rel="noopener noreferrer">
+      <i data-feather="mail"></i>
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/rizqia_eclipse" target="_blank" rel="noopener noreferrer">
+      <i data-feather="instagram"></i>
+    </a>
+  </div>
+
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#history">History</a>
+    <a href="#map">Map</a>
+    <a href="#author">Author</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+<!-- Footer End -->
+
+
+    <!-- Feather Icons -->
+  <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+     <script src="js/script.js"></script>
+     <script>
+</script>
+</body>
